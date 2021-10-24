@@ -1,45 +1,40 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.mystyle{
   color: white;
+  background-color: DodgerBlue;
+  padding: 10px;
+  font-family: Arial;
+  text-align:center;
+
 }
 
-.App-link {
-  color: #61dafb;
+.btnStyle{
+  height: 30px;
+   width : 50px;
+   background-color: DodgerBlue;
+   text-align:center;
+   margin:5px;
+   background-color: blue;
+}
+.bookbtn{
+  height: 50px;
+   width : 100px;
+   background-color: DodgerBlue;
+  color:white;
+   margin:5px;
+}
+.h3{
+  color:black;
+  float:right;
+  margin:30px;
+}
+.availableSeat{
+  height: 30px;
+  width : 50px;
+  background-color: DodgerBlue;
+  
+  margin:25px;
+  float:right;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
-.btnStyle:hover {
-  backgroundColor: black;
-}
-.h4{
-  backgroundColor: black;
-}
